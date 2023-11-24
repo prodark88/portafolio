@@ -6,27 +6,27 @@ const Navbar = () => {
     <nav style={navbarStyle}>
       <ul style={navListStyle}>
         <li>
-          <Link to="/" style={navItemStyle}>
+          <Link to="/portafolio" style={navItemStyle}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="/about" style={navItemStyle}>
+          <Link to="/portafolio/about" style={navItemStyle}>
             About me
           </Link>
         </li>
         <li>
-          <Link to="/skills" style={navItemStyle}>
+          <Link to="/portafolio/skills" style={navItemStyle}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="/projects" style={navItemStyle}>
+          <Link to="/portafolio/projects" style={navItemStyle}>
             Projects
           </Link>
         </li>
         <li>
-          <Link to="/thanks" style={navItemStyle}>
+          <Link to="/portafolio/thanks" style={navItemStyle}>
             Contact
           </Link>
         </li>
