@@ -1,0 +1,191 @@
+/* Containers */
+
+.mainContain {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 800px) {
+  .mainContain {
+    flex-direction: column;
+    align-items: center; /* Ajusta esto según tus necesidades */
+  }
+}
+
+.rowContain {
+  width: 75%;
+  height: auto;
+  display: flex;
+  box-sizing: border-box;
+  align-items: start;
+  justify-content: space-around;
+}
+@media screen and (max-width: 800px) {
+  .rowContain {
+    flex-direction: column;
+    align-items: center; /* Ajusta esto según tus necesidades */
+  }
+}
+.rowContainCenter {
+  width: 90%;
+  height: auto;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 800px) {
+  .rowContainCenter {
+    flex-direction: column;
+    align-items: center; /* Ajusta esto según tus necesidades */
+  }
+}
+
+.columnContain {
+  width: 95%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.containerPrimary {
+  width: 100%;
+  height: auto;
+  border: 0;
+  display: flex;
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerSecondary {
+  width: 100%;
+  height: auto;
+  border: 0;
+  display: flex;
+  flex: 50%;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.containerImage {
+  width: 100%;
+  max-height: 500px;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+/* variantContain */
+.container1 {
+  height: auto;
+  border: 0;
+  margin: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  flex: 50%;
+  height: auto;
+  border: 0;
+  margin: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+.container3 {
+  width: 100%;
+  height: 60vh;
+  border: 0px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;  
+}
+.container4 {
+  width: 92%;
+  border: 0;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.image {
+  width: 86.6%;
+  max-height: 800px;
+  object-fit: cover;
+  /* margin-left: -63px; */
+  margin-left: -9.3%;
+}
+
+.image3 {
+  width: 70%;
+  max-height: 400px;
+  align-items: center;
+  object-fit: cover;
+  margin-left: 120px;
+}
+
+.image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: sepia(0.2) saturate(1.5);
+}
+.smallImage{
+  width: 400px;
+  height: 250px;
+  align-items: center;
+  object-fit: cover;
+  filter: sepia(0.2) saturate(1.5);
+
+}
+@media screen and (max-width: 1026px) {
+.image,
+.image2,
+.image3,
+.smallImage {
+  display: none;
+}
+}
+
+/* Estilos para p y h1 */
+
+p {
+  color: #2ad680;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  margin-top: 0;
+  line-height: 1.2;
+}
+h2{
+  margin: 0px;
+  font-size: 2.5rem;
+  color: white;
+}
+h3 {
+  font-size: 2rem;
+  color: white;
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+
+
